@@ -1,0 +1,218 @@
+:root{
+  --azulClaro: #40CEE4;
+  --azulOscuro: #00249C;
+  --blanco: #ffff;
+}
+
+body{
+        margin-top: 0px;
+        margin-block-start: 0px;
+        margin-block-end: 0px;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-family: 'Montserrat', sans-serif, bold;
+}
+@media screen and (min-width:1024px){
+.row{
+  padding: 80px 50px;
+}
+.containerImg{
+  display: flex;
+  justify-content: center;
+}
+
+.imgLogo{
+      padding: 100px 0px 100px 550px!important;
+      height: 100%!important;
+      width: 100%!important;
+}
+.image-container1 {
+  position: relative;
+  display: inline-block;
+  /* Asegurar que el contenedor tenga un tamaño definido para que la máscara ocupe todo el espacio */
+  height: 50%!important;
+  width: 50%!important ;
+  /* Ajusta el tamaño según el tamaño de tu imagen */
+  margin: 50px 50px 50px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: #0000; 
+  
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 550px ;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1); /* Fondo semi-transparente */
+  border: 1px solid var(--blanco); /* Borde blanco de 5px */
+  border-radius: 20px;
+  opacity: 0; /* Hacer invisible la máscara inicialmente */
+  transition: opacity 0.3s; /* Transición para que aparezca suavemente */
+  box-shadow: 0px 10px 10px #0000;
+}
+
+.image-container1:hover .overlay {
+  opacity: 1; /* Hacer visible la máscara al hacer hover */
+}
+
+.section1{
+        background-repeat: no-repeat;
+        margin: 0px !important;
+        padding: 0px !important;
+        gap: 0px !important;
+        font-family: Montserrat;
+        font-size: 28px;
+        line-height: 34px;
+        color: var(--blanco);
+        background-image: linear-gradient(var(--azulOscuro),var(--azulClaro));
+     }
+     
+.section1Text{
+    padding: 70px 0px 50px 120px!important;
+    color: var(--blanco);
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+.section1Text2{
+    padding: 50px 0px 60px 120px!important;
+    color: var(--blanco);
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.section2{
+    display: flex;
+    background-repeat: no-repeat;
+    background-image: url(../img/Background.svg);
+}
+
+.Title{
+  color: var(--azulOscuro);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 80.964px;
+  margin: 150px 0px 20px 50px;
+}
+
+.container2Section2{
+  margin-top: 100px;
+}
+
+.section2Container2{
+  margin-top: 100px;
+}
+
+p .container2Title{
+  font-weight: 500px;
+}
+
+.logoSection2{
+  width: 100px;
+  margin: 0px 0px 0px 50px;
+}
+.section2Text1{
+  margin: 20px 200px 20px 50px;
+  width: 550px;
+  font-size: 20px;
+  color: #A8A8A8;
+
+}
+
+.section2Textp{
+  margin: 20px;
+  background-color: rgba(64, 206, 228, 0.548);
+  opacity: 2;
+  border-radius: 20px;
+  width: 300px;
+  padding: 20px;
+  color:  var(--azulOscuro);
+  font-size: 20px;
+}
+
+.imgSection2Container2{
+  width: 350px;
+}
+
+.imgSection2{
+  margin: 56px 0px 0px 50px;
+  width: 120px;
+  height: 120px;
+}
+
+.section2Text3{
+  margin: -100px 200px 20px 50px;
+  width: 550px;
+  font-size: 20px;
+  color: #A8A8A8;
+}
+
+.containerText {
+  width: 800px;
+  height: 415px;
+  overflow: auto;
+  
+}
+.containerText::-webkit-scrollbar{
+  display: none;
+}
+
+.containerMenu{
+    background-color: var(--azulOscuro);
+    display: block;
+    border-radius: 0px 15px 15px 0px;
+}
+.icon1ContainerMenu{
+    width: 45px;
+    padding: 60px 20px 25px 20px;
+    display: block
+}
+
+.iconContainerMenu{
+    width: 90px;
+    padding: 25px 20px 25px 20px;
+    display: block;
+}
+.icon1ContainerMenu{
+  width: 90px;
+  padding: 60px 20px 25px 20px;
+  display: block;
+}
+
+.open{
+  background-color: var(--azulClaro);
+  color: var(--blanco);
+  position: absolute;
+  top: 150px;
+  left: 65px;
+  border-radius: 10px;
+  z-index: 4;
+}
+.open p{
+  padding: 0px 20px 0px 20px;
+}
+
+.iconsScroll{
+    margin: 160px 0px 0px 50px;
+}
+.icon1Scroll{
+    padding-bottom: -30;
+    display: block;
+}
+
+
+}
+
+  
